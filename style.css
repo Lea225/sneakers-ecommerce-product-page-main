@@ -302,7 +302,7 @@ button:hover,.minus-icon:hover,.btn:hover{
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
-    background-image: url('images/bg-top.webp');
+    background-image: url('images/bg-top\ \(1\).jpg');
 }
 .hero div{
     display: flex;
