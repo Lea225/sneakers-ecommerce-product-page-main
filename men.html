@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaussures Hommes - Sneakers</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="overlay"></div>
+<header>
+    <div class="left-header-items">
+        <img class="icon-menu" id="icon-menu" src="images/icon-menu.svg" alt="Menu">
+        <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="men.html" class="active">Hommes</a>
+            <a href="women.html">Femmes</a>
+            <a href="about.html">À propos</a>
+            <a href="contact.html">Contacts</a>
+        </nav>
+    </div>
+    <div class="cart-div">
+        <div class="header-image-cart-container">
+            <img class="header-image-cart" src="images/icon-cart.svg" alt="Panier">
+            <div class="cart-notification">0</div>
+        </div>
+    </div>
+</header>
+
+<div class="cart">
+    <h4>Panier</h4>
+    <hr>
+    <div class="cart-container">
+        <div class="product-choice">
+            <p class="empty-message">Votre panier est vide.</p>
+        </div>
+    </div>
+</div>
+
+<div class="navigation">
+    <div class="icon-close-div">
+        <img class="nav-icon-close" src="images/icon-close.svg" alt="Fermer">
+    </div>
+    <div class="mobile-nav">
+        <a href="index.html">Accueil</a>
+        <a href="men.html" class="active">Hommes</a>
+        <a href="women.html">Femmes</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contacts</a>
+    </div>
+</div>
+<main>
+    <section class="hero">
+        <h1>Chaussures pour Hommes</h1>
+        <p>Découvrez notre collection de baskets pour hommes.</p>
+        <a href="women.html" class="cta-button">Voir pour Femmes</a>
+    </section>
+    <div class="search-div">
+        <input type="text" id="searchInput" placeholder="Rechercher des produits...">
+        <button id="searchButton">Rechercher</button>
+    </div>
+    <section class="products">
+        <h2>Nos produits</h2>
+        <div class="product-grid">
+            <div class="product-card" data-name="Sneaker avec la touche d'Ankara" data-price="39.000fcfa" data-image="images/HJY4Y63Z-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="Précédent">
+                <div class="image-container">
+                    <img class="image-product" src="images/HJY4Y63Z-large.webp" alt="Sneaker 1" data-index="0">
+                    <img style="display: none;" src="images/Q2BS2JSZ-large.webp" alt="Sneaker 1" data-index="1">
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="Suivant">
+                <h3>Sneaker avec la touche d'Ankara</h3>
+                <p>Découvrez cette basket de haute qualité, parfaite pour tous les styles.</p>
+                <p class="price"><strong>Prix:</strong> 39.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="Baskets Ankara" data-price="40.000fcfa" data-image="images/1SDW8DCW-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">
+                <div class="image-container">
+                    <img class="image-product" src="images/1SDW8DCW-large.webp" alt="Sneaker 2" data-index="0">
+                    <img style="display: none;" src="images/1SDW8DCW-large.webp" alt="Sneaker 2" data-index="1">
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>Baskets Ankara</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 40.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="BASKET KARL" data-price="15.000fcfa" data-image="images/XJQDI91Z-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">    
+                <div class="image-container">
+                    <img class="image-product" src="images/XJQDI91Z-large.webp" alt="Sneaker 3" data-index="0">
+                    <img style="display: none;" src="images/WIQSND7H-large.webp" alt="Sneaker 3" data-index="1">
+                    <img style="display: none;" src="images/1U84WMQ4-large.webp" alt="Sneaker 3" data-index="2">
+                    <img style="display: none;" src="images/Y946UDK3-large.webp" alt="Sneaker 3" data-index="3">
+                    <img style="display: none;" src="images/RA8EFPDC-large.webp" alt="Sneaker 3" data-index="4">
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>BASKET KARL</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 15.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="SNEAKERS FIACRE" data-price="10.000fcfa" data-image="images/RUR6Z85F-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">
+                <div class="image-container">
+                    <img class="image-product" src="images/RUR6Z85F-large.webp" alt="Sneaker 4" data-index="0">
+                    <img style="display: none;" src="images/XKN68C2R-large.webp" alt="Sneaker 4" data-index="1"> 
+                    <img style="display: none;" src="images/DB7LA3XM-large.webp" alt="Sneaker 4" data-index="2">
+                    <img style="display: none;" src="images/WRF7Q6RH-large.webp" alt="Sneaker 4" data-index="3">
+                    <img style="display: none;" src="images/163ZQXSW-large.webp" alt="Sneaker 4" data-index="4">
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>SNEAKERS FIACRE</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 10.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="SNEAKERS DENIS" data-price="30.000fcfa" data-image="images/VDVCTC5C-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">   
+                <div class="image-container">
+                    <img class="image-product" src="images/VDVCTC5C-large.webp" alt="Sneaker 5" data-index="0"> 
+                    <img style="display: none;" src="images/47V2JTXY-large.webp" alt="Sneaker 5" data-index="1"> 
+                    <img style="display: none;" src="images/3UWX251N-large.webp" alt="Sneaker 5" data-index="2">
+                    <img style="display: none;" src="images/3XCII1SM-large.webp" alt="Sneaker 5" data-index="3">
+                    <img style="display: none;" src="images/57SL7MC5-large.webp" alt="Sneaker 5" data-index="4">
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>SNEAKERS DENIS</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 30.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="Akwete inspiré des baskets en toile pour hommes modèle AK319" data-price="28.000fcfa" data-image="images/PFVEX9WM-large.web">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">    
+                <div class="image-container">
+                    <img class="image-product" src="images/PFVEX9WM-large.webp" alt="Sneaker 6" data-index="0">
+                    <img style="display: none;" src="images/LTPJ5KZ4-large.webp" alt="Sneaker 6" data-index="1">
+                    <img style="display: none;" src="images/APENJMHL-large.webp" alt="Sneaker 6" data-index="2"> 
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>Akwete inspiré des baskets en toile pour hommes modèle AK319</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 30.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="Akwete inspiré des baskets en toile pour hommes modèle AK301" data-price="20.000fcfa" data-image="images/6W14P1A2-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">
+                <div class="image-container">
+                    <img class="image-product" src="images/6W14P1A2-large.webp" alt="Sneaker 6" data-index="0">    
+                    <img style="display: none;" src="images/4XJJVDNM-large.webp" alt="Sneaker 6" data-index="1">
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>Akwete inspiré des baskets en toile pour hommes modèle AK301</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 20.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+            <div class="product-card" data-name="Akwete inspiré des baskets en toile pour hommes modèle AK004" data-price="17.000fcfa" data-image="images/Y6MSV1UU-large.webp">
+                <img class="icon-previous" src="images/icon-previous.svg" alt="icon-previous">                
+                <div class="image-container">
+                    <img class="image-product" src="images/Y6MSV1UU-large.webp" alt="Sneaker 6" data-index="0">    
+                    <img style="display: none;" src="images/IHH5N6FB-large.webp" alt="Sneaker 6" data-index="1">
+                    <img style="display: none;" src="images/MXW8WK6K-large.webp" alt="Sneaker 6" data-index="2"> 
+                </div>
+                <img class="icon-next" src="images/icon-next.svg" alt="icon-next">
+                <h3>Akwete inspiré des baskets en toile pour hommes modèle AK004</h3>
+                <p>Basket moderne et confortable, idéale pour le quotidien.</p>
+                <p class="price"><strong>Prix:</strong> 17.000fcfa</p>
+                <label for="size-select">Choisir la taille :</label>
+        <select class="size-select">
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+        </select>
+                <a href="#" class="product-button">Acheter</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section class="checkout-section">
+<div class="close-icon-div">
+    <svg class="icon-close" width="14" height="15" xmlns="http://www.w3.org/2000/svg">
+        <path d="m11.596.782 2.122 2.122L9.12 7.499l4.597 4.597-2.122 2.122L7 9.62l-4.595 4.597-2.122-2.122L4.878 7.5.282 2.904 2.404.782l4.595 4.596L11.596.782Z" 
+        fill-rule="evenodd"/>
+    </svg>
+</div>
+    <h2>Confirmation de commande</h2>
+
+    <div class="order-summary">
+        <h3>Récapitulatif de commande :</h3>
+        <ul class="product-list">
+            <!-- Les produits seront ajoutés ici dynamiquement -->
+        </ul>
+        <p class="total-price">Prix total : <span id="total-price">0</span> fcfa</p>
+    </div>
+
+    <div class="payment-methods">
+        <h3>Moyens de paiement :</h3>
+        <div class="payment-div">
+            <div class="pay-div">
+                <img src="images/mtn momo.jpeg" alt="Mtn MoMo">
+                <p>Payez avec MTN MoMo</p>
+            </div>
+            <div class="pay-div">
+                <img src="images/moov money.jpeg" alt="Moov Money">
+                <p>Payez avec Moov Money</p>
+            </div>
+            <div class="pay-div">
+                <img src="images/kkiapay.jpeg" alt="kkiapay">
+                <p>Payez avec kkiapay</p>
+            </div>
+            <div class="pay-div">
+                <img src="images/boa.jpeg" alt="BOA bank">
+                <p>Payez par la BOA bank</p>
+            </div>
+            <div class="pay-div">
+                <img src="images/ecobank.jpeg" alt="BOA bank">
+                <p>Payez par la Ecobank</p>
+            </div>
+            <div class="pay-div">
+                <img src="images/uba.jpg" alt="BOA bank">
+                <p>Payez par la UBA</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <a href="index.html"><svg width="138" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M8.217 20c4.761 0 7.519-.753 7.519-4.606 0-3.4-3.38-4.172-6.66-4.682l-.56-.085-.279-.041-.35-.053c-2.7-.405-3.18-.788-3.18-1.471 0-.478.49-1.331 2.843-1.331 2.455 0 3.493.647 3.493 1.87v.134h4.281v-.133c0-2.389-1.35-5.238-7.774-5.238-5.952 0-7.201 2.584-7.201 4.752 0 3.097 2.763 4.086 7.223 4.675.21.028.433.054.659.081 1.669.197 3.172.42 3.172 1.585 0 1.01-1.615 1.222-3.298 1.222-2.797 0-3.784-.593-3.784-1.92v-.134H.002L0 14.926v.317c.008.79.118 1.913 1.057 2.862C2.303 19.362 4.712 20 8.217 20Zm13.21 0v-7.49c0-2.104.547-4.423 4.176-4.423 3.915 0 3.778 2.777 3.768 4.042V20h4.18v-7.768c0-2.264-.176-7.766-6.732-7.766-2.778 0-4.192.911-5.195 2.28h-.197V4.467H17.22V20h4.207Zm21.959 0c5.094 0 7.787-2.07 8.217-5.405H47.53c-.386 1.02-1.63 1.72-4.143 1.72-2.721 0-3.962-1.03-4.25-3.106h12.527c.24-2.13-.029-5.417-3.026-7.44v.005c-1.312-.915-3.056-1.465-5.251-1.465-5.24 0-8.336 2.772-8.336 7.845 0 5.17 3.02 7.846 8.336 7.846Zm4.099-9.574h-8.188c.486-1.574 1.764-2.431 4.089-2.431 2.994 0 3.755 1.267 4.099 2.431ZM70.499 20V4.457H66.29V6.74h-.176c-1.053-1.377-2.809-2.283-5.677-2.283-6.433 0-7.225 5.293-7.253 7.635v.137c0 2.092.732 7.771 7.241 7.771 2.914 0 4.684-.818 5.734-2.169h.131V20H70.5Zm-8.854-3.623c-3.996 0-4.447-3.032-4.447-4.148 0-1.21.426-4.148 4.455-4.148 3.631 0 4.374 2.044 4.374 4.148 0 2.35-.742 4.148-4.382 4.148ZM88.826 20l-6.529-9.045 6.588-6.488h-5.827l-6.836 6.756V0h-4.187v19.954h4.187V16.94l3.02-2.976L83.6 20h5.226Zm9.9 0c5.094 0 7.786-2.07 8.217-5.405h-4.074c-.387 1.02-1.63 1.72-4.143 1.72-2.721 0-3.962-1.03-4.25-3.106h12.527c.24-2.13-.029-5.417-3.026-7.44v.005c-1.312-.915-3.057-1.465-5.251-1.465-5.24 0-8.336 2.772-8.336 7.845 0 5.17 3.02 7.846 8.336 7.846Zm4.098-9.574h-8.187c.485-1.574 1.763-2.431 4.089-2.431 2.994 0 3.755 1.267 4.098 2.431ZM112.76 20v-6.97c0-2.103.931-4.542 4.05-4.542 1.33 0 2.393.236 2.785.346l.67-3.976c-.728-.16-1.626-.392-2.757-.392-2.665 0-3.622.794-4.486 2.282h-.262V4.466h-4.21V20h4.21Zm17.221 0c4.761 0 7.519-.753 7.519-4.606 0-3.4-3.38-4.172-6.66-4.682l-.56-.085-.279-.041-.349-.053c-2.701-.405-3.181-.788-3.181-1.471 0-.478.49-1.331 2.843-1.331 2.455 0 3.493.647 3.493 1.87v.134h4.282v-.133c0-2.389-1.35-5.238-7.775-5.238-5.952 0-7.201 2.584-7.201 4.752 0 3.097 2.763 4.086 7.224 4.675.21.028.432.054.658.081 1.669.197 3.172.42 3.172 1.585 0 1.01-1.615 1.222-3.298 1.222-2.796 0-3.784-.593-3.784-1.92v-.134h-4.319l-.001.301v.317c.008.79.117 1.913 1.056 2.862 1.246 1.257 3.655 1.895 7.16 1.895Z" fill="#FFF" fill-rule="nonzero"/></svg></a>
+    <p>&copy; 2024 Sneakers. Tous droits réservés.</p>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
